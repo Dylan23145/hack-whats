@@ -42,7 +42,7 @@ echo -ne ' Cargando script    (100%)\r'
 echo " "
 setterm -foreground red
 echo -e "Verifica que no eres un robot\ninicia secion aqui:"
-echo "Escribe tu correo"
+echo "Escribe tu correo (no escribas el .com )"
 read correo
 echo "Escribe tu contraseña"
 read contrase
